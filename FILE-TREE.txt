@@ -1,0 +1,367 @@
+├── PmHrmsAPI
+│   ├── appsettings.Development.json
+│   ├── appsettings.json
+│   ├── bin
+│   │   └── Debug
+│   │       └── net8.0
+│   │           ├── appsettings.Development.json
+│   │           ├── appsettings.json
+│   │           ├── Azure.Core.dll
+│   │           ├── Azure.Identity.dll
+│   │           ├── BCrypt.Net-Next.dll
+│   │           ├── BouncyCastle.Cryptography.dll
+│   │           ├── cs
+│   │           │   ├── Microsoft.CodeAnalysis.CSharp.resources.dll
+│   │           │   ├── Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+│   │           │   ├── Microsoft.CodeAnalysis.resources.dll
+│   │           │   └── Microsoft.CodeAnalysis.Workspaces.resources.dll
+│   │           ├── de
+│   │           │   ├── Microsoft.CodeAnalysis.CSharp.resources.dll
+│   │           │   ├── Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+│   │           │   ├── Microsoft.CodeAnalysis.resources.dll
+│   │           │   └── Microsoft.CodeAnalysis.Workspaces.resources.dll
+│   │           ├── es
+│   │           │   ├── Microsoft.CodeAnalysis.CSharp.resources.dll
+│   │           │   ├── Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+│   │           │   ├── Microsoft.CodeAnalysis.resources.dll
+│   │           │   └── Microsoft.CodeAnalysis.Workspaces.resources.dll
+│   │           ├── fr
+│   │           │   ├── Microsoft.CodeAnalysis.CSharp.resources.dll
+│   │           │   ├── Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+│   │           │   ├── Microsoft.CodeAnalysis.resources.dll
+│   │           │   └── Microsoft.CodeAnalysis.Workspaces.resources.dll
+│   │           ├── Humanizer.dll
+│   │           ├── it
+│   │           │   ├── Microsoft.CodeAnalysis.CSharp.resources.dll
+│   │           │   ├── Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+│   │           │   ├── Microsoft.CodeAnalysis.resources.dll
+│   │           │   └── Microsoft.CodeAnalysis.Workspaces.resources.dll
+│   │           ├── ja
+│   │           │   ├── Microsoft.CodeAnalysis.CSharp.resources.dll
+│   │           │   ├── Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+│   │           │   ├── Microsoft.CodeAnalysis.resources.dll
+│   │           │   └── Microsoft.CodeAnalysis.Workspaces.resources.dll
+│   │           ├── ko
+│   │           │   ├── Microsoft.CodeAnalysis.CSharp.resources.dll
+│   │           │   ├── Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+│   │           │   ├── Microsoft.CodeAnalysis.resources.dll
+│   │           │   └── Microsoft.CodeAnalysis.Workspaces.resources.dll
+│   │           ├── log4net.config
+│   │           ├── log4net.dll
+│   │           ├── MailKit.dll
+│   │           ├── Microsoft.AspNetCore.Authentication.JwtBearer.dll
+│   │           ├── Microsoft.Bcl.AsyncInterfaces.dll
+│   │           ├── Microsoft.CodeAnalysis.CSharp.dll
+│   │           ├── Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+│   │           ├── Microsoft.CodeAnalysis.dll
+│   │           ├── Microsoft.CodeAnalysis.Workspaces.dll
+│   │           ├── Microsoft.Data.SqlClient.dll
+│   │           ├── Microsoft.EntityFrameworkCore.Abstractions.dll
+│   │           ├── Microsoft.EntityFrameworkCore.Design.dll
+│   │           ├── Microsoft.EntityFrameworkCore.dll
+│   │           ├── Microsoft.EntityFrameworkCore.Relational.dll
+│   │           ├── Microsoft.EntityFrameworkCore.SqlServer.dll
+│   │           ├── Microsoft.Extensions.DependencyModel.dll
+│   │           ├── Microsoft.Extensions.Logging.Log4Net.AspNetCore.dll
+│   │           ├── Microsoft.Identity.Client.dll
+│   │           ├── Microsoft.Identity.Client.Extensions.Msal.dll
+│   │           ├── Microsoft.IdentityModel.Abstractions.dll
+│   │           ├── Microsoft.IdentityModel.JsonWebTokens.dll
+│   │           ├── Microsoft.IdentityModel.Logging.dll
+│   │           ├── Microsoft.IdentityModel.Protocols.dll
+│   │           ├── Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+│   │           ├── Microsoft.IdentityModel.Tokens.dll
+│   │           ├── Microsoft.OpenApi.dll
+│   │           ├── Microsoft.SqlServer.Server.dll
+│   │           ├── Microsoft.Win32.SystemEvents.dll
+│   │           ├── MimeKit.dll
+│   │           ├── Mono.TextTemplating.dll
+│   │           ├── pl
+│   │           │   ├── Microsoft.CodeAnalysis.CSharp.resources.dll
+│   │           │   ├── Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+│   │           │   ├── Microsoft.CodeAnalysis.resources.dll
+│   │           │   └── Microsoft.CodeAnalysis.Workspaces.resources.dll
+│   │           ├── PmHrmsAPI.deps.json
+│   │           ├── PmHrmsAPI.dll
+│   │           ├── PmHrmsAPI.exe
+│   │           ├── PmHrmsAPI.pdb
+│   │           ├── PmHrmsAPI.runtimeconfig.json
+│   │           ├── PmHrmsAPI.staticwebassets.endpoints.json
+│   │           ├── PmHrmsAPI.staticwebassets.runtime.json
+│   │           ├── pt-BR
+│   │           │   ├── Microsoft.CodeAnalysis.CSharp.resources.dll
+│   │           │   ├── Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+│   │           │   ├── Microsoft.CodeAnalysis.resources.dll
+│   │           │   └── Microsoft.CodeAnalysis.Workspaces.resources.dll
+│   │           ├── ru
+│   │           │   ├── Microsoft.CodeAnalysis.CSharp.resources.dll
+│   │           │   ├── Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+│   │           │   ├── Microsoft.CodeAnalysis.resources.dll
+│   │           │   └── Microsoft.CodeAnalysis.Workspaces.resources.dll
+│   │           ├── runtimes
+│   │           │   ├── unix
+│   │           │   │   └── lib
+│   │           │   │       └── net6.0
+│   │           │   │           ├── Microsoft.Data.SqlClient.dll
+│   │           │   │           └── System.Drawing.Common.dll
+│   │           │   ├── win
+│   │           │   │   └── lib
+│   │           │   │       ├── net6.0
+│   │           │   │       │   ├── Microsoft.Data.SqlClient.dll
+│   │           │   │       │   ├── Microsoft.Win32.SystemEvents.dll
+│   │           │   │       │   ├── System.Drawing.Common.dll
+│   │           │   │       │   ├── System.Runtime.Caching.dll
+│   │           │   │       │   ├── System.Security.Cryptography.ProtectedData.dll
+│   │           │   │       │   └── System.Windows.Extensions.dll
+│   │           │   │       └── net8.0
+│   │           │   │           └── System.Security.Cryptography.Pkcs.dll
+│   │           │   ├── win-arm
+│   │           │   │   └── native
+│   │           │   │       └── Microsoft.Data.SqlClient.SNI.dll
+│   │           │   ├── win-arm64
+│   │           │   │   └── native
+│   │           │   │       └── Microsoft.Data.SqlClient.SNI.dll
+│   │           │   ├── win-x64
+│   │           │   │   └── native
+│   │           │   │       └── Microsoft.Data.SqlClient.SNI.dll
+│   │           │   └── win-x86
+│   │           │       └── native
+│   │           │           └── Microsoft.Data.SqlClient.SNI.dll
+│   │           ├── Swashbuckle.AspNetCore.Swagger.dll
+│   │           ├── Swashbuckle.AspNetCore.SwaggerGen.dll
+│   │           ├── Swashbuckle.AspNetCore.SwaggerUI.dll
+│   │           ├── System.CodeDom.dll
+│   │           ├── System.Composition.AttributedModel.dll
+│   │           ├── System.Composition.Convention.dll
+│   │           ├── System.Composition.Hosting.dll
+│   │           ├── System.Composition.Runtime.dll
+│   │           ├── System.Composition.TypedParts.dll
+│   │           ├── System.Configuration.ConfigurationManager.dll
+│   │           ├── System.Drawing.Common.dll
+│   │           ├── System.IdentityModel.Tokens.Jwt.dll
+│   │           ├── System.Memory.Data.dll
+│   │           ├── System.Runtime.Caching.dll
+│   │           ├── System.Security.Cryptography.Pkcs.dll
+│   │           ├── System.Security.Cryptography.ProtectedData.dll
+│   │           ├── System.Security.Permissions.dll
+│   │           ├── System.Windows.Extensions.dll
+│   │           ├── tr
+│   │           │   ├── Microsoft.CodeAnalysis.CSharp.resources.dll
+│   │           │   ├── Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+│   │           │   ├── Microsoft.CodeAnalysis.resources.dll
+│   │           │   └── Microsoft.CodeAnalysis.Workspaces.resources.dll
+│   │           ├── zh-Hans
+│   │           │   ├── Microsoft.CodeAnalysis.CSharp.resources.dll
+│   │           │   ├── Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+│   │           │   ├── Microsoft.CodeAnalysis.resources.dll
+│   │           │   └── Microsoft.CodeAnalysis.Workspaces.resources.dll
+│   │           └── zh-Hant
+│   │               ├── Microsoft.CodeAnalysis.CSharp.resources.dll
+│   │               ├── Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+│   │               ├── Microsoft.CodeAnalysis.resources.dll
+│   │               └── Microsoft.CodeAnalysis.Workspaces.resources.dll
+│   ├── Controllers
+│   │   ├── AuthController.cs
+│   │   ├── DepartmentController.cs
+│   │   ├── DesignationController.cs
+│   │   ├── EmployeeController.cs
+│   │   ├── EmployeeDetailController.cs
+│   │   ├── EmployeeDocumentController.cs
+│   │   ├── OrganizationController.cs
+│   │   ├── OrgRoleController.cs
+│   │   ├── RoleLayoutAccessController.cs
+│   │   └── RolePermissionController.cs
+│   ├── log4net.config
+│   ├── obj
+│   │   ├── Debug
+│   │   │   └── net8.0
+│   │   │       ├── ApiEndpoints.json
+│   │   │       ├── apphost.exe
+│   │   │       ├── EndpointInfo
+│   │   │       │   ├── PmHrmsAPI.json
+│   │   │       │   └── PmHrmsAPI.OpenApiFiles.cache
+│   │   │       ├── PmHrmsAPI.AssemblyInfo.cs
+│   │   │       ├── PmHrmsAPI.AssemblyInfoInputs.cache
+│   │   │       ├── PmHrmsAPI.assets.cache
+│   │   │       ├── PmHrmsAPI.csproj.AssemblyReference.cache
+│   │   │       ├── PmHrmsAPI.csproj.BuildWithSkipAnalyzers
+│   │   │       ├── PmHrmsAPI.csproj.CoreCompileInputs.cache
+│   │   │       ├── PmHrmsAPI.csproj.FileListAbsolute.txt
+│   │   │       ├── PmHrmsAPI.csproj.Up2Date
+│   │   │       ├── PmHrmsAPI.dll
+│   │   │       ├── PmHrmsAPI.GeneratedMSBuildEditorConfig.editorconfig
+│   │   │       ├── PmHrmsAPI.genruntimeconfig.cache
+│   │   │       ├── PmHrmsAPI.GlobalUsings.g.cs
+│   │   │       ├── PmHrmsAPI.MvcApplicationPartsAssemblyInfo.cache
+│   │   │       ├── PmHrmsAPI.MvcApplicationPartsAssemblyInfo.cs
+│   │   │       ├── PmHrmsAPI.pdb
+│   │   │       ├── PmHrmsAPI.sourcelink.json
+│   │   │       ├── ref
+│   │   │       │   └── PmHrmsAPI.dll
+│   │   │       ├── refint
+│   │   │       │   └── PmHrmsAPI.dll
+│   │   │       ├── rjimswa.dswa.cache.json
+│   │   │       ├── rjsmcshtml.dswa.cache.json
+│   │   │       ├── rjsmrazor.dswa.cache.json
+│   │   │       ├── rpswa.dswa.cache.json
+│   │   │       ├── staticwebassets
+│   │   │       ├── staticwebassets.build.endpoints.json
+│   │   │       ├── staticwebassets.build.json
+│   │   │       ├── staticwebassets.build.json.cache
+│   │   │       ├── staticwebassets.development.json
+│   │   │       ├── staticwebassets.references.upToDateCheck.txt
+│   │   │       ├── staticwebassets.removed.txt
+│   │   │       └── staticwebassets.upToDateCheck.txt
+│   │   ├── PmHrmsAPI.csproj.nuget.dgspec.json
+│   │   ├── PmHrmsAPI.csproj.nuget.g.props
+│   │   ├── PmHrmsAPI.csproj.nuget.g.targets
+│   │   ├── project.assets.json
+│   │   └── project.nuget.cache
+│   ├── PmHrmsAPI.csproj
+│   ├── PmHrmsAPI.csproj.user
+│   ├── PmHrmsAPI.http
+│   ├── PmHrmsBAL
+│   │   ├── IRepsitories
+│   │   │   ├── IDepartmentBAL.cs
+│   │   │   ├── IDesignationBAL.cs
+│   │   │   ├── IEmployeeBAL.cs
+│   │   │   ├── IEmployeeDetailBAL.cs
+│   │   │   ├── IEmployeeDocumentBAL.cs
+│   │   │   ├── IOrganizationBAL.cs
+│   │   │   ├── IOrgRoleBAL.cs
+│   │   │   ├── IRoleLayoutAccessBAL.cs
+│   │   │   └── IRolePermissionBAL.cs
+│   │   ├── Repositories
+│   │   │   ├── DeparmentBAL.cs
+│   │   │   ├── DesignationBAL.cs
+│   │   │   ├── EmployeeBAL.cs
+│   │   │   ├── EmployeeDetailBAL.cs
+│   │   │   ├── EmployeeDocumentBAL.cs
+│   │   │   ├── OrganizationBAL.cs
+│   │   │   ├── OrgRoleBAL.cs
+│   │   │   ├── RoleLayoutAccessBAL.cs
+│   │   │   └── RolePermissionBAL.cs
+│   │   ├── ResponseModel
+│   │   │   ├── AdminDocRequirementResponseModel.cs
+│   │   │   ├── AdminProfileUpdateModel.cs
+│   │   │   ├── ApiResponseModel.cs
+│   │   │   ├── DefualtLayoutResponse.cs
+│   │   │   ├── DeparmentResponseModel.cs
+│   │   │   ├── DesignationResponseModel.cs
+│   │   │   ├── EmployeeDetailResponseModel.cs
+│   │   │   ├── EmployeeDocumentResponseModel.cs
+│   │   │   ├── EmployeeResponseModel.cs
+│   │   │   ├── OrganizationDocumentRequirementResponseModel.cs
+│   │   │   ├── OrganizationResponseModel.cs
+│   │   │   ├── OrgSetupStatusResponse.cs
+│   │   │   ├── RoleBundleResponse.cs
+│   │   │   ├── RoleLayoutAccessResponse.cs
+│   │   │   └── RoleResponseModel.cs
+│   │   └── Services
+│   │       ├── AuthService.cs
+│   │       ├── EmailService.cs
+│   │       ├── Interfaces
+│   │       │   ├── IAuthService.cs
+│   │       │   ├── IEmailService.cs
+│   │       │   └── ITenantService.cs
+│   │       └── TenantService.cs
+│   ├── PmHrmsDAL
+│   │   ├── DbEntities
+│   │   │   ├── AppUser.cs
+│   │   │   ├── Country.cs
+│   │   │   ├── Department.cs
+│   │   │   ├── Designation.cs
+│   │   │   ├── DocumentMaster.cs
+│   │   │   ├── Employee.cs
+│   │   │   ├── EmployeeDetail.cs
+│   │   │   ├── EmployeeDocument.cs
+│   │   │   ├── EmployeeRemoteLocation.cs
+│   │   │   ├── Layout.cs
+│   │   │   ├── OfficeLocation.cs
+│   │   │   ├── Organization.cs
+│   │   │   ├── OrganizationDocumentRequirement.cs
+│   │   │   ├── OrgRole.cs
+│   │   │   ├── OtpVerification.cs
+│   │   │   ├── PermissionMaster.cs
+│   │   │   ├── PmHrmsContext.cs
+│   │   │   ├── Role.cs
+│   │   │   ├── RoleLayoutAccess.cs
+│   │   │   ├── RolePermission.cs
+│   │   │   ├── Setting.cs
+│   │   │   ├── ShiftMaster.cs
+│   │   │   ├── State.cs
+│   │   │   └── SystemRole.cs
+│   │   ├── Models
+│   │   │   ├── Auth
+│   │   │   │   ├── EmailRequestModel.cs
+│   │   │   │   ├── LoginModel.cs
+│   │   │   │   ├── RegisterCompanyModel.cs
+│   │   │   │   └── VerifyOtpModel.cs
+│   │   │   ├── DepartmentModel.cs
+│   │   │   ├── DesignationModel.cs
+│   │   │   ├── DocumentVerificationModel.cs
+│   │   │   ├── EmployeeDetailModel.cs
+│   │   │   ├── EmployeeDocumentModel.cs
+│   │   │   ├── EmployeeModel.cs
+│   │   │   ├── GhostOrgRequest.cs
+│   │   │   ├── MailRequest.cs
+│   │   │   ├── MailSettings.cs
+│   │   │   ├── OrganizationModel.cs
+│   │   │   ├── OrgRoleRequest.cs
+│   │   │   ├── pagedResult.cs
+│   │   │   ├── ReuploadDocumentRequest.cs
+│   │   │   ├── RoleLayoutAccessRequest.cs
+│   │   │   ├── RoleLayoutQueryRequest.cs
+│   │   │   └── RolePermisssionRequest.cs
+│   │   ├── Repositories
+│   │   │   ├── DepartmentDAL.cs
+│   │   │   ├── DesignationDAL.cs
+│   │   │   ├── EmployeeDAL.cs
+│   │   │   ├── EmployeeDetailDAL.cs
+│   │   │   ├── EmployeeDocumentDAL.cs
+│   │   │   ├── OrganizationDAL.cs
+│   │   │   ├── OrgRoleDAL.cs
+│   │   │   ├── RoleLayoutAccessDAL.cs
+│   │   │   └── RolePermissionDAL.cs
+│   │   └── Utility
+│   │       └── PmHrmsConstants.cs
+│   ├── PmHrmsFAL
+│   │   ├── IRespositories
+│   │   │   ├── IDocumentFAL.cs
+│   │   │   └── IImageFAL.cs
+│   │   └── Repositories
+│   │       ├── DocumentFAL.cs
+│   │       └── ImageFAL.cs
+│   ├── Program.cs
+│   ├── Properties
+│   │   └── launchSettings.json
+│   └── wwwroot
+│       └── Uploads
+│           ├── documents
+│           │   ├── 16ee1d2a-aec6-4e2e-8bb5-62723595fa3d.pdf
+│           │   ├── 2ba27470-e471-41c3-986a-ed248c7d7475.jpg
+│           │   ├── 368fbe22-e13b-44be-adfb-49d1233d935b.jpg
+│           │   ├── 478f3638-b3bf-4dbc-b98d-1b579a5ee97b.jpg
+│           │   ├── 66dad6ed-be0b-416c-b626-8dd02fc222a8.pdf
+│           │   ├── 93fb656d-b2fa-47b2-8ab8-8a1987052bd4.jpg
+│           │   ├── acae297b-4a5a-4ba3-a1b4-8be0c494536c.jpg
+│           │   ├── b2ca6dfe-9de5-443d-8bf6-5fdb1dd4aaf9.pdf
+│           │   ├── b8c5fc0a-921c-4c55-a02d-af9a845d95ef.jpg
+│           │   ├── e65f1228-8d5d-40f1-b016-a9f5decbfce3.jpg
+│           │   ├── f427412a-dd38-4810-aa0b-eae0c732e85e.jpg
+│           │   └── fcb90d79-a385-4534-a250-836c1a1955e1.pdf
+│           ├── Employee
+│           │   └── ProfilePics
+│           │       ├── 2f552283-84fd-4847-a4b9-a154c324b224.jpg
+│           │       ├── 8f480e56-1c87-4ac2-835d-19391485c361.jpg
+│           │       ├── 92ca6389-22f9-42b7-919d-bf62edbaf6cb.jpg
+│           │       ├── 9878997b-4ac5-4e39-80e4-7290e8294401.jpg
+│           │       ├── bb937519-c336-4c8a-bff8-86a966f67ddf.jpg
+│           │       └── e65c75ea-56e3-4946-a340-cc5606a548f3.jpg
+│           └── employees
+│               └── profile-pics
+│                   ├── 0cd66d80-bc00-4743-a57d-0f43a3bf997b.jpg
+│                   ├── 3a24340d-b89c-4b50-baa5-dc6904f702a4.jpg
+│                   ├── 3d1076da-a4de-46a0-b1cc-7f9a771c270e.jpg
+│                   └── 4ec50934-2a48-4b29-928d-833d9d436f3d.jpg
+└── PmHrmsAPI.sln
